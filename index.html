@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="desktop.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/fnafverdadeira-historia-16453967-060520192127.jpg" type="image/x-icon">
+    <title>*FAZBEAR* ENTERTAIMENT</title>
+</head>
+<body onload="loaded()">
+    <nav id="nav-menu-001">
+        <ul>
+            <li>
+                <figure id="a-03">
+                     
+                </figure>
+              </li>
+        </ul>
+        <ul id="list-001">
+            <li>
+               <a id="a-01" href="#">Pizzarias
+                <ul id="sub-list001">
+                    <li id="pizza-1">
+                        <img id="img-family-diner" src="img/fnafverdadeira-historia-16453967-060520192127.jpg" alt="">
+                       Family diner
+                    </li>
+                    <li id="pizza-2">
+                        <img id="img-family-diner" src="img/FNaFSB-FFPSPizzeria.webp" alt="">
+                      pizza place
+                    </li>
+                    <li id="pizza-3" >
+                        <img id="img-family-diner" src="img/67ee59e93816b1aafeb11f5d6b10a80ba86c97d7_full.jpg" alt="">
+                      Fazbear fright's
+                    </li>
+                    <li id="pizza-4" >
+                        <img id="img-family-diner" src="img/5f204eae337c5015eeb85a59f7fb8425.jpg" alt="">
+                        Fazbear & Friends
+                    </li>
+                    <li id="pizza-5" >
+                        <img id="img-family-diner" src="img/download.jpg" alt="">
+                       Freddy Fazbear Pizza
+                    </li>
+                    <li id="pizza-6" >
+                        <img id="img-family-diner" src="img/fazber intertaiment.jpg" alt="">
+                        Fazbear ENTERTAIMENT
+                     </li>
+                </ul>
+               </a>
+            </li> 
+            <li id="selectionbooks">
+                <a id="a-02"  href="#">Livros</a>
+            </li>    
+            <li>
+                <a id="a-03" href="#">Jogos</a>
+            </li>
+            <li>
+                <a id="a-04" href="#">Animatronics</a>
+            </li>
+            <li>
+                <a id="a-05" href="#" onclick="wallet()">Fazer seu Cracha</a>
+            </li>           
+        </ul>
+    </nav>
+    <script>
+        function wallet(){
+    var yourwallet = Number(prompt(`Cole o Código que te foi entregue.`));
+    if(yourwallet == numberofWallet){     
+        document.write(`<p style="background-color:aquamarine; color:blue; width:177px; text-decoration:underline; "> <img id="l-1" src="img/perfil.jpg" alt="">
+            Nome: ${w$name$} <br> idade: ${idade} anos <br>
+            codigo da carteira: ${numberofWallet} </p> <br>
+            <p><img id="a1-100%" src="img/115-1151113_cdigo-de-barras-em-png-codigo-de-barras.png" alt=""> ></p>`);
+    }
+    else{
+        window.alert(`o codigo inserido está incorreto`);
+    }
+}
+    </script>
+</body>
+</html>

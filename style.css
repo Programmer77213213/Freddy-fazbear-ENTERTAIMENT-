@@ -1,0 +1,168 @@
+* {
+    margin:0px;
+    padding:0px;
+    list-style:none;
+    text-decoration:none;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition-timing-function:ease-in-out;
+    transition-delay:0.3s;
+    transition-duration:0.3;
+    text-decoration-color:red;
+}
+
+body {
+    background:(url());
+    background-size:cover;
+}
+
+nav#nav-menu-001 {
+    border:3px solid red;
+    height:77px;    
+    background-color:black;    
+}
+
+ul#list-001 li {
+    display:inline-table;
+    margin-right:27px;
+    text-decoration:underline; 
+    text-decoration-color:red;
+}
+
+ul#sub-list001 {
+    display:inline-block; 
+    margin-top:37px;    
+    width:137px;
+    float:right;
+    margin-bottom:7px;
+    text-align:center;
+    background-color:black;
+    border:7px double red;
+    border-top:3px solid red;
+    outline:3px solid goldenrod;
+    display:none;
+}
+
+a#a-01:focus > #sub-list001 {
+    display:block;
+}
+
+a#a-01:hover {
+    color:rgb(108, 64, 3);  
+    transition:0.3s; 
+    transition-delay:0.1s;
+    transition-timing-function:ease-in-out;
+    transition-duration:0.7;
+}
+
+a#a-02:hover {
+    color:rgb(108, 64, 3);   
+    transition:0.3s; 
+    transition-delay:0.1s;
+    transition-timing-function:ease-in-out;
+    transition-duration:0.7;
+}
+
+a#a-03:hover {
+    color:rgb(108, 64, 3);   
+    transition:0.3s; 
+    transition-delay:0.1s;
+    transition-timing-function:ease-in-out;
+    transition-duration:0.7;
+}
+
+a#a-04:hover {
+    transition:0.3s; 
+    color:rgb(108, 64, 3);   
+    transition-delay:0.1s;
+    transition-timing-function:ease-in-out;
+    transition-duration:0.7;
+}
+
+h2#nomeuser-001 {
+   color:blue;
+}
+
+a#a-05:hover {
+    transition:0.3s; 
+    color:rgb(108, 64, 3);   
+    transition-delay:0.1s;
+    transition-timing-function:ease-in-out;
+    transition-duration:0.7;
+}
+
+ul#sub-list001 li {
+   margin-left:22px;
+   margin-bottom:17px;
+}
+
+a#a-05 {    
+    margin-right:1px;
+    border:3px solid rgb(0, 0, 80);
+    background-color:blue;
+    color:white;
+    text-decoration:none;
+}
+
+ul#list-001 a {
+    color:rgb(255, 149, 0);
+}
+                        
+figure#a-03 {
+   background:url(img/FazbearEntertainment-ARLogo.webp) center no-repeat;
+   background-size:67px;
+   width:177px;
+   height:77px;
+   float:left;
+}
+
+li#pizza-1:hover {
+    transition:0.3s; 
+    color:yellow;   
+    transition-delay:0.1s;
+    transition-timing-function:ease-in-out;
+    transition-duration:0.7;
+}
+
+li#pizza-2:hover {
+    transition:0.3s; 
+    color:yellow;   
+    transition-delay:0.1s;
+    transition-timing-function:ease-in-out;
+    transition-duration:0.7;
+}
+
+li#pizza-3:hover {
+    transition:0.3s; 
+    color:yellow;   
+    transition-delay:0.1s;
+    transition-timing-function:ease-in-out;
+    transition-duration:0.7;
+}
+
+li#pizza-4:hover {
+    transition:0.3s; 
+    color:yellow;   
+    transition-delay:0.1s;
+    transition-timing-function:ease-in-out;
+    transition-duration:0.7;
+}
+
+li#pizza-5:hover {
+    transition:0.3s; 
+    color:yellow;   
+    transition-delay:0.1s;
+    transition-timing-function:ease-in-out;
+    transition-duration:0.7;
+}
+
+li#pizza-6:hover {
+    transition:0.3s; 
+    color:yellow;   
+    transition-delay:0.1s;
+    transition-timing-function:ease-in-out;
+    transition-duration:0.7;
+}
+
+img#img-family-diner {
+    width:77px;
+}
